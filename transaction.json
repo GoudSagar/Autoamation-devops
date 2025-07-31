@@ -4,3 +4,11 @@
   * git push
   * git fetch
   * git checkout
+5. git checkout: git checkout is used for switching an branch as well creating new branch from specific branch.
+
+command: 
+
+local master> git fetch origin master // fetch changes from remote repo branch to intermediatory branch "origin/master"
+local master> git checkout -b feature-fix origin/master   
+
+Note: If you are trying fetch changes from remote branch(develop) which is not same as local branch(master) then fetch + checkout method is referred.
